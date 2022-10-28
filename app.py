@@ -61,10 +61,17 @@
 #     if command.lower() == 'quit':
 #         break
 
-count = 0
-for x in range(1, 10):
-    if x % 2 == 0:
-        count += 1
-        print(x)
+# count = 0
+# for x in range(1, 10):
+#     if x % 2 == 0:
+#         count += 1
+#         print(x)
 
-print(f'We have {count} even numbers')
+# print(f'We have {count} even numbers')
+
+def greet():
+    print('Hi there')
+    print('Welcome aboard')
+
+
+greet()

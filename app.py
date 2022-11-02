@@ -69,9 +69,20 @@
 
 # print(f'We have {count} even numbers')
 
-def greet(first_name, last_name):
-    print(f'Hi there {first_name} {last_name}')
-    print('Welcome aboard')
+# def greet(first_name, last_name):
+#     print(f'Hi there {first_name} {last_name}')
+#     print('Welcome aboard')
 
 
-greet("Troy", "Parsons")
+# greet("Troy", "Parsons")
+
+
+def greet(name):
+    print(f"Hi {name}")
+
+
+def get_greeting(name):
+    return f"Hi {name}"
+
+
+greet("Troy")
